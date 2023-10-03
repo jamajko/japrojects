@@ -1,0 +1,192 @@
+
+body { 
+	margin:0; 
+	} 
+
+
+/* Podstránky 1. urovne / Home */
+
+				/* Začiatok rozloženie stránky */
+					.menu {
+					position: fixed;	/* Aby sa červená plocha na ľavo pri skrolovaní nehýbala */
+					font-family: Times, Times New Roman, serif;		/* Typ písma */
+					font-size: 17px;	/* Veľkosť písma */
+					width: 15%;		/* Šírka menu časti je 15% z obrazovky */
+					padding-bottom: 100%;	/* Aby Plocha pre menu (výška) siahala až po spodok. */
+					color: white;	/* Farba písma */
+					background-color:rgb(199, 0, 0);	/* Farba plochy */
+							}
+
+					.page {
+					font-family: Times, Times New Roman, serif;	/* Typ písma */
+					font-size: 20px;	/* Veľkosť písma */
+					float: right;	/* Aby sa obsah nachádzal na pravej strane obrazovky */
+					width: 84%;		/* Vynechal som 1% aby obsah nebol nalepený na menu (aby tam bola medzierka).  */
+							}
+				/* Koniec rozloženie stránky */	
+				
+				
+				
+				/* Začiatok menu style */
+					.verticalmenu {
+					padding-top: 30px;	/* Priestor pod logom */
+					width: 100%; 	/* Aby bolo menu po celej šírke menu plochy */
+						}
+
+					.verticalmenu a {
+					background-color: rgb(199,0,0);	/* Farba pozadia pre možnisti == farba plochy */
+					color: rgb(255,255,255);	/* Farba písma možností */
+					display: block;		/* Zoradenie možností v menu pod seba */
+					padding: 15px;		/* Aby samotné možnosti neboli na sebe nalepené (estetika) */
+					text-decoration: none;	/* Aby možnosti v menu neboli podčiarknuté */
+						}
+
+					.verticalmenu a:hover {
+					background-color: rgb(199,100,100);		/* Farba pozadia pre možnosť v menu, na ktorú sa mieri kurzorom */
+					color: rgb(255,255,255);	/* Farba písma v menu na ktoré sa mieri kurzorom */
+						}
+
+					.verticalmenu a.active {
+					background-color: rgb(255,255,255);		/* Farba pozadia možnosti v menu, na ktorej stránke sa aktuálne nachádza */
+					color: rgb(199,0,0);	/* Farba písma možnosti v menu, na ktorej stránke sa aktuálne nachádza */
+						}
+				/* Koniec menu style */
+				
+				
+				
+				/* Začiatok nadpis*/
+					.h1 {
+					text-align: center;		/* Nadpis v strede na šírku */
+					font-size: 40px;		/* Veľkosť písma */
+					font-weight: bold;		/* Hrubé písmo */
+					color: rgb(255,255,255); 	/* Farba nadpisu */
+					background-color: rgb(199,0,0);		/* Farba pozadia nadpisu */
+					}
+				/* Koniec nadpis */
+				
+				
+				
+				/* Začiatok tabuľky pre zoznam hier style */
+					.tabgz {
+					border-collapse: collapse; /* Aby mala tabuľka iba 1 čiaru hraníc */
+					width: 99%;	/* Šírka tabuľky */
+						}
+					
+					.tabgz td, th {
+					border: 3px solid black;	/* Rám */
+							}
+					.tabgz td {
+					font-family: Times, Times New Roman, serif;		/* Typ písma */
+					text-align: left;		/* Text v tabuľke na ľavo */
+							}
+					
+					.tabgz th {
+					background-color: rgb(199, 0, 0);	/* Farba pozadia vybraných polí */
+					color: white;	/* Farba písma */
+					width: 1% ;	/* Aby bola tabuľka rozdelená na polovici šírky stránky */
+							}
+				/* Koniec tabuľky pre zoznam hier style */
+				
+				
+				
+				/* Začiatok nadpis v zoznamoch */
+					.h3 {
+					text-align: center;		/* Nadpis v strede na šírku */
+					font-size: 40px;		/* Veľkosť písma */
+					background-color: rgb(199,0,0);		/* Farba pozadia nadpisu */
+						}
+						
+					.h3 a {	
+					color: rgb(255,255,255); 	/* Farba nadpisu */
+					font-weight: bold;		/* Hrubé písmo */
+					text-decoration: none;	/* Aby text nebol podčiarknutý */
+						}
+				/* Koniec nadpis v zoznamoch */
+
+
+
+
+
+
+/* Podstránky 2. úrovne */
+
+				/* Začiatok rozloženie podstránky */
+					.podst {
+					background-color: rgb(255, 255, 255);	/* Farba pozadia pre obsah */
+					font-family: Times, Times New Roman, serif;	/* Typ písma */
+					font-size: 20px;	/* Veľkosť písma */
+					padding-left: 2%;	/* Medzera vľavo */
+					padding-right: 2%;	/* Medzera vpravo */
+					padding-bottom: 1%; /* Vďaka tomuto siaha farba pozadia až po spodok */
+					margin-left: 5%;	/* Medzera pre červené pozadie */
+					margin-right: 5%;	/* Medzera pre červené pozadie */
+							}
+				/* Koniec rozloženie podstránky */
+				
+				/* Začiatok nadpis*/
+					.h2 {
+					font-family: Times, Times New Roman, serif;		/* Typ písma */
+					padding-top: 10px;	/* Medzera z vrchu */
+					font-size: 40px;	/* Veľkosť písma */
+					font-weight: bold;	/* Hrubé písmo */
+					}
+				/* Koniec nadpis */
+				
+				
+				
+				/* Začiatok pozadie podstránky */
+					.back {
+					background-color:rgb(199, 0, 0);	/* Farba pozadia */
+							}
+				/* Koniec pozadie podstránky */
+				
+				
+				
+				/* Začiatok skóre*/
+					.bod {
+					font-family: Times, Times New Roman, serif;		/* Typ písma */
+					text-align: center; 	/* Zarovnanie do stredu */
+					font-size: 45px;		/* Veľkosť písma */
+					font-weight: bold;		/* Hrubé písmo */
+					color: rgb(255,255,255); 	/* Farba písma */
+					background-color: rgb(199,0,0);		/* Farba pozadia pre body */
+					border: 3px solid black;	/* Rám */
+					}
+				/* Koniec skóre */
+				
+
+
+				/* Začiatok tabuľky style */
+					.table {
+					border-collapse: collapse; /* Aby mala tabuľka iba 1 čiaru hraníc */
+					width: 100%;	/* Šírka tabuľky */
+						}
+					
+					.table td, th {
+					text-align: left;		/* Text v tabuľke na ľavo */
+					border: 3px solid black;	/* Rám */
+							}
+					
+					.table th {
+					background-color: rgb(199, 0, 0);	/* Farba pozadia vybraných polí */
+					color: white;	/* Farba písma */
+							}
+							
+					.table td {
+					width: 25% ;	/* Aby bola tabuľka rozdelená na polovici šírky stránky */
+							}
+				/* Koniec tabuľky style */
+				
+				
+				
+				/* Začiatok zoznam.ico */
+					.ul1 {
+					list-style-image: url('https://grid3.kaim.fpv.ucm.sk/~mariankuchynka/CSS/plus.ico');	/* Zoznam: obrázok ako odrážky */
+							}
+	
+					.ul2 {
+					list-style-image: url('https://grid3.kaim.fpv.ucm.sk/~mariankuchynka/CSS/minus.ico');	/* Zoznam: obrázok ako odrážky */
+							}
+				/* Koniec zoznam.ico */
+				
+				
