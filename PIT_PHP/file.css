@@ -1,0 +1,99 @@
+
+body { 
+	margin:0; 
+	} 
+
+
+
+				/* Začiatok rozloženie podstránky */
+					.podst {
+					background-color: rgb(255, 255, 255);	/* Farba pozadia pre obsah */
+					font-family: Times, Times New Roman, serif;	/* Typ písma */
+					font-size: 20px;	/* Veľkosť písma */
+					padding-left: 2%;	/* Medzera vľavo */
+					padding-right: 2%;	/* Medzera vpravo */
+					padding-bottom: 1%; /* Vďaka tomuto siaha farba pozadia až po spodok */
+					margin-left: 5%;	/* Medzera pre červené pozadie */
+					margin-right: 5%;	/* Medzera pre červené pozadie */
+							}
+				/* Koniec rozloženie podstránky */
+				
+				/* Začiatok nadpis*/
+					h2 {
+					font-family: Times, Times New Roman, serif;		/* Typ písma */
+					padding-top: 10px;	/* Medzera z vrchu */
+					font-size: 40px;	/* Veľkosť písma */
+					font-weight: bold;	/* Hrubé písmo */
+					}
+				/* Koniec nadpis */
+				
+				
+				
+				/* Začiatok pozadie podstránky */
+					.back {
+					background-color:rgb(199, 0, 0);	/* Farba pozadia */
+							}
+				/* Koniec pozadie podstránky */
+				
+				
+				
+				/* Začiatok skóre*/
+					.bod {
+					font-family: Times, Times New Roman, serif;		/* Typ písma */
+					text-align: center; 	/* Zarovnanie do stredu */
+					font-size: 45px;		/* Veľkosť písma */
+					font-weight: bold;		/* Hrubé písmo */
+					color: rgb(255,255,255); 	/* Farba písma */
+					background-color: rgb(199,0,0);		/* Farba pozadia pre body */
+					border: 3px solid black;	/* Rám */
+					}
+				/* Koniec skóre */
+				
+
+
+				/* Začiatok tabuľky style */
+					.table {
+					border-collapse: collapse; /* Aby mala tabuľka iba 1 čiaru hraníc */
+					width: 100%;	/* Šírka tabuľky */
+						}
+					
+					.table td, th {
+					text-align: center;		/* Text v tabuľke na ľavo */
+					border: 3px solid black;	/* Rám */
+							}
+					
+					.table th {
+					background-color: rgb(199, 0, 0);	/* Farba pozadia vybraných polí */
+					color: white;	/* Farba písma */
+							}
+							
+					
+							
+				/* Koniec tabuľky style */
+				
+				
+				
+				/* Začiatok zoznam.ico */
+					.ul1 {
+					list-style-image: url('plus.ico');	/* Zoznam: obrázok ako odrážky */
+							}
+	
+					.ul2 {
+					list-style-image: url('minus.ico');	/* Zoznam: obrázok ako odrážky */
+							}
+				/* Koniec zoznam.ico */
+				
+				
+				
+				textarea {
+				font-size: 20px;
+				resize: none;
+							}	
+				
+				.hviezda {
+				display: inline;
+				color: rgb(199, 0, 0);
+				font-size: 25px;
+							}
+				
+				
